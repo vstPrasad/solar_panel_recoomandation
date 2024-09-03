@@ -1,4 +1,4 @@
-package com.vandanam.PannelReccommondation;
+package com.vandanam.PannelReccommondation.models;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -17,8 +17,8 @@ public class InstallationDetails {
     @Column(name = "connection_id")
     private Long connectionId;
 
-    @Column(name = "installable_space_type")
-    private String installableSpaceType;
+    @Column(name = "installation_space_type")
+    private String installationSpaceType;
 
     @Column(name = "is_preferred_space")
     private Boolean isPreferredSpace;
@@ -37,4 +37,8 @@ public class InstallationDetails {
 
     @Column(name = "available_space_south_north_sqft")
     private Double availableSpaceSouthNorthSqft;
+
+    @Column(name="is_selected")
+    private boolean isSelected;
+
 }

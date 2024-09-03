@@ -1,6 +1,8 @@
-package com.vandanam.PannelReccommondation;
+package com.vandanam.PannelReccommondation.mappers;
 
 
+import com.vandanam.PannelReccommondation.dto.InstallationDetailsDTO;
+import com.vandanam.PannelReccommondation.models.InstallationDetails;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 
